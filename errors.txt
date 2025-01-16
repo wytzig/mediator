@@ -1,0 +1,46 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 48: expected statement.
+    leib("who are you??")
+                         ^
+
+File "game/script.rpy", line 49: expected statement.
+    wilhelmina("I am shocked you don't recognize me.. haha")
+                                                            ^
+
+File "game/script.rpy", line 50: expected statement.
+    wilhelmina("I am wilhelmina")
+                                 ^
+
+File "game/script.rpy", line 51: expected statement.
+    wilhelmina("Princess of orange")
+                                    ^
+
+File "game/script.rpy", line 52: expected statement.
+    wilhelmina("and you have traveled into my world now. Tell me, what is the last thing you remember?")
+                                                                                                        ^
+
+File "game/script.rpy", line 54: expected statement.
+    leib("I... I don't know.. maybe.. ah yes")
+                                              ^
+
+File "game/script.rpy", line 55: expected statement.
+    leib("I was fighting the king of ... ")
+                                           ^
+
+File "game/script.rpy", line 56: expected statement.
+    leib("oh my god..")
+                       ^
+
+File "game/script.rpy", line 58: expected statement.
+    wilhelmina("don't worry my love, I hate him as much as you.")
+                                                                 ^
+
+File "game/script.rpy", line 61: expected statement.
+    wilhelmina("Here in this world we call him the __dark__ prince of orange, he is no king here..")
+                                                                                                    ^
+
+Ren'Py Version: Ren'Py 8.3.3.24111502
+Thu Jan 16 20:13:01 2025
