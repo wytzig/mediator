@@ -100,6 +100,20 @@ label start:
     leib "WAIT"
     ronnie "what's that?"
     leib "I will also need a menora..  I can't do my godly duties witout one"
+    ronnie "you got it champ"
+
+    hide rietman-draw
+    show bg airplane
+
+    leib "hmmm.. nothing seems out of the ordinary..."
+    "ALLAH-U-AKBAHR" with vpunch
+    show terrorists at right
+
+    leib "hold it there you middle-eastern assholes"
+    "leib picks up his menora and throws it at them"
+    hide terrorists
+
+    leib "I can't believe that just worked.."
 
 
 
