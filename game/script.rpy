@@ -115,6 +115,9 @@ label start:
 
     leib "I can't believe that just worked.."
 
+    "and so leib defeated 2 dumb arabs and prevented a double 911"
+    "only time will tell what the future has in store for this world.. now that micaleib has started to return..."
+
 
 
 
