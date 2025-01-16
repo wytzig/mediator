@@ -1,4 +1,4 @@
-### Micaleib the story  
+### A Micaleib  story  
 
 
 Renpy project about the adventures of mica-leib our jewish superhero. 
