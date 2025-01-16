@@ -1,2 +1,4 @@
-game/cache/
-game/idea/
+**/cache/*
+**/idea/*
+log.txt
+errors.txt
