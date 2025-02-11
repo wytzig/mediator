@@ -1,32 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 36, in script
-    show micaleib rags at halfsize, left
-  File "game/script.rpy", line 36, in <module>
-    show micaleib rags at halfsize, left
-NameError: name 'halfsize' is not defined
+  File "game/script.rpy", line 54, in script
+    show wilhelmina_yas_queen_2 at (flip, right)
+TypeError: 'tuple' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 36, in script
-    show micaleib rags at halfsize, left
+  File "game/script.rpy", line 54, in script
+    show wilhelmina_yas_queen_2 at (flip, right)
   File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 1111, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 1070, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 1070, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 36, in <module>
-    show micaleib rags at halfsize, left
-NameError: name 'halfsize' is not defined
+  File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 1074, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\Admin\Downloads\renpy-8.3.3-sdk\renpy\exports\displayexports.py", line 489, in show
+    img = i(img) # type: ignore
+TypeError: 'tuple' object is not callable
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.3.24111502
 mediator 1.0
-Thu Jan 16 20:26:12 2025
+Tue Feb 11 21:22:43 2025

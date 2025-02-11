@@ -6,9 +6,17 @@
 define leib = Character("Micaleib")
 define wilhelmina = Character("Wilhelmina", who_color="#ff7f50")
 define ronnie = Character("Ronnie", who_color="#FFFF00")
+define katinka = Character("Katinka", who_color="53624A")
 
 
 # The game starts here.
+init:
+    transform flip:
+        xzoom - 1.0
+
+    transform flip_right:
+        flip
+        xalign 1.0
 
 label start:
 
@@ -43,7 +51,7 @@ label start:
     leib "huh?"
 
     "AROUND YOU" with vpunch
-    show wilhelmina-van-oranje-spirit at topright
+    show wilhelmina_yas_queen_2 at flip_right
 
     leib "who are you??"
     wilhelmina "I am shocked you don't recognize me.. haha"
@@ -67,7 +75,7 @@ label start:
     wilhelmina "you are free now, but know that in due time I will need your help"
     wilhelmina "go, find ronnie, and kill the dark prince of orange"
 
-    hide wilhelmina-van-oranje-spirit
+    hide wilhelmina_yas_queen_2 at flip_right
 
     leib "it's gorgeous out here"
     leib "wait.. whats that"
@@ -88,7 +96,7 @@ label start:
     "it would not take long before our hero encountered a mysterious figure in the woods"
 
     show micaleib rags at left
-    show rietman-draw at right
+    show rietman_boss at right
 
     ronnie "hold it there champ, who are you"
     leib "I am leib, who are you?"
@@ -102,7 +110,7 @@ label start:
     leib "I will also need a menora..  I can't do my godly duties witout one"
     ronnie "you got it champ"
 
-    hide rietman-draw
+    hide rietman_boss
     show bg airplane
 
     leib "hmmm.. nothing seems out of the ordinary..."
@@ -118,7 +126,20 @@ label start:
     "and so leib defeated 2 dumb arabs and prevented a double 911"
     "only time will tell what the future has in store for this world.. now that micaleib has started to return..."
 
+    show bg whitehouse
+    show katinka_uitnodigend at right
 
+    katinka "oh hero, my brave warrior..."
+    katinka "thank you for saving America <3<3"
+    katinka "take me as your wife, please please please"
+
+    leib ".."
+    leib ".."
+    leib "no"
+    leib "I will take you as my sex doll" with vpunch
+
+    katinka ".." with vpunch
+    "and they lived happily after after"
 
 
     # This ends the game.
